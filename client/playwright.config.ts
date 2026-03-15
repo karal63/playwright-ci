@@ -78,7 +78,7 @@ export default defineConfig({
             reuseExistingServer: !process.env.CI,
         },
         {
-            command: "npm run start:dev",
+            command: "cd ../server && npm run start:dev",
             url: "http://localhost:3000",
             reuseExistingServer: !process.env.CI,
         },
